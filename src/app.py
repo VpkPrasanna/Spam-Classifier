@@ -28,8 +28,8 @@ def predict(sentence):
         temp = "Spam"
     response = {}
     response["response"] = {
-        "positive": str(positive_prediction),
-        "negative": str(negative_prediction),
+        "Ham": str(positive_prediction),
+        "Spam": str(negative_prediction),
         "sentence": str(sentence),
         "time_taken": str(time.time() - start_time),
         "Result":str(temp)
