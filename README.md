@@ -36,3 +36,14 @@ Example
 ## Note 
 ### Use  sudo before the docker command if it ask for root user permission. 
 ---
+
+## To run the api without docker follow the below steps
+
+
+- Run app.py file inside Src Folder.
+- It will give us a URL where you can hit the api something like this `http://0.0.0.0:8000/` and route to `0.0.0.0:8000/docs`
+
+## Reference Image
+![Api UI](images/image1.png)
+
+> With Love VPK
