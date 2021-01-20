@@ -20,19 +20,8 @@ How to Run the API ?
 
 For that Build the docker file and run the docker file
 
-## Build the docker file 
-`sudo docker build --tag <Name for the docker image> .`
-
-Example
- - `docker build --tag spam-model .`
-
-## Run the docker container
-`sudo docker --publish <Mapping port> <Name for the docker>`
-
-Example
-
-- `docker --publish 8000:8000 spam-model`
-
+Just Run 
+- `docker-compose up`
 ## Note 
 ### Use  sudo before the docker command if it ask for root user permission. 
 ---
