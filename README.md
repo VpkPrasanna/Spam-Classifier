@@ -2,9 +2,19 @@
 
 ## To reproduce the result 
 
-- Just follow the notebook given under notebook section and follow the steps specified there.
+- Execute all the cells from the notebook to get the required results.
 ---
+## DockerFile 
+- Docker file can be found [here](https://github.com/VpkPrasanna/Spam-Classifier/blob/main/Dockerfile)
+---
+## yaml File for deployement 
+- file can be found [here](https://github.com/VpkPrasanna/Spam-Classifier/blob/main/docker-compose.yml)
 
+## Desing Diagram for CI/CD
+- diagram can be found at the last in readme or [here](https://github.com/VpkPrasanna/Spam-Classifier/blob/main/images/cicd.png)
+---
+## text document that highlights the CI/CD
+- File can be found [here](https://github.com/VpkPrasanna/Spam-Classifier/blob/main/cicd.txt)
 # Tech Stack
 > For Model : [Pytorch](https://pytorch.org/)
 
