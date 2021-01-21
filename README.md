@@ -35,4 +35,16 @@ Just Run
 ## Reference Image
 ![Api UI](images/image1.png)
 
+## Why i have note used Kubernetes ?
+- The main reason is we dont have a bigger application where one micro service interact with other micro service.
+- If we have a situation where we have a **Database** which stores all the response for each and every request,then that is where we can use multiple containers to run simultanously and scale up and down based on the needs of the application **demands.**
+- That's Why i did not use any Kubernetes based approach to this solution.
+---
+# How a CI/CD pipeline works
+![Api UI](images/cicd.png)
+- This is how a typical CI/CD Pipeline works in an organisation.
+- There are many tools to handle CI/CD Pipeline like 
+1. Jenkins
+2. Circle ci
+
 > With Love VPK
